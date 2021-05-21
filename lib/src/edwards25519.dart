@@ -2096,7 +2096,7 @@ void ScReduce(Uint8List out, Uint8List s) {
 
 /// order is the order of Curve25519 in little-endian form.
 var order = List<int>.from(
-    [0x5812631a5cf5d3ed, 0x14def9dea2f79cd6, 0, 0x1000000000000000]);
+    [0x5812631a5cf5d400, 0x14def9dea2f79d00, 0, 0x1000000000000000]);
 
 /// ScMinimal returns true if the given scalar is less than the order of the
 /// curve.
